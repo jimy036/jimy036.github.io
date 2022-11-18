@@ -190,3 +190,7 @@ main {
     text-align: center;
     
 }
+
+td{
+    border: solid 1px rgb(78, 11, 11);
+}
