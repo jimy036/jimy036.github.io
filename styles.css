@@ -194,3 +194,20 @@ main {
 td{
     border: solid 1px rgb(78, 11, 11);
 }
+
+.main-topcakes-container{
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topcake-content{
+    max-width: 650px;
+    background-color: azure;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 20px;
+}
+
