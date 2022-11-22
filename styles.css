@@ -206,6 +206,7 @@ main {
 
 .table-topcake-content{
     max-width: 650px;
+    min-width: 320px;
     background-color: azure;
     border-radius: 5px;
     padding: 8px;
