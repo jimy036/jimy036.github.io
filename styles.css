@@ -191,8 +191,9 @@ main {
     
 }
 
-td{
-    border: solid 1px rgb(78, 11, 11);
+.table td, table th{
+    padding: 1em;
+    text-align: left;
 }
 
 .main-topcakes-container{
@@ -203,11 +204,42 @@ td{
     justify-content: center;
 }
 
-.topcake-content{
+.table-topcake-content{
     max-width: 650px;
     background-color: azure;
     border-radius: 5px;
     padding: 8px;
     margin: 20px;
+    font-size: 10pt;
+    
 }
 
+.table--title{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.table{
+    width: 100%;
+    border-spacing: 0;
+}
+
+tbody tr:nth-child(even){
+    background-color: var(--grey);
+}
+
+thead :nth-child(1){
+    color: white;
+    background-color: var(--azul-negro);
+}
+
+.fa-star{
+    color: #ffc400;
+}
+
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--vino-pastel);
+}
